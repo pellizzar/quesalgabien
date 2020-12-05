@@ -1,0 +1,89 @@
+
+.div-principal {
+	font-family: 'Roboto', sans-serif;
+	color: #a2b0a7;
+	font-size: 36px;
+	background-image: url('Images/AAA.png');
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+    line-height: 1.5;
+    padding: 25px ;
+
+}
+
+
+.container{
+	width: 700px;
+	margin: 50px auto;
+
+}
+
+.boxes{
+	display: grid;
+	grid-gap: 18px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.micro-boxes {
+	background-color: gray;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+	flex-grow: 1px;
+}
+
+.micro-boxes img{
+
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+
+}
+
+
+a{
+	color: #353b37;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: white;
+
+}
+
+body{
+	margin: 0;
+	font-size: 18px;
+
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 34px;
+}
+ 
+h3 {
+	color: orange;
+	font-size: 22px;
+}
+
+h5{
+	color: #b4b8b5;
+	font-size: 22px;
+
+	}
+
+p {
+	color: white;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+footer{
+	color: white;
+	background-color: black;
+	padding: 20px 15px;
+	text-align: left;
+}
+
